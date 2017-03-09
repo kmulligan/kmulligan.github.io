@@ -1,0 +1,47 @@
+body {
+  background-color: #595959;
+  color: #ffffff;
+}
+
+/* weather icon scaling */
+.wi-fw {
+  font-size: 110px;
+}
+
+.btn {
+  margin:10px 0px 10px 0px;
+}
+
+/* Our Containers */
+
+/* for the line including zip code */
+
+.currentLocation {
+  margin: 50px 20px 20px 20px;
+}
+
+/* styling our links to look the same */
+a:link,a:hover,a:active,a:visited{
+  color: #ffffff;
+}
+/* to insert the weather icon based on the temperature */
+
+.weatherVisual {
+  margin: 5px 20px 5px 20px;
+}
+
+/* to present the numeric temperature */
+
+.currentTemp {
+  margin: 5px 20px 5px 20px;
+}
+
+/* to house our buttons */
+
+.buttonContainer {}
+
+/* for our footer */
+
+.footer {
+  margin:20px 20px 20px 20px;
+}
