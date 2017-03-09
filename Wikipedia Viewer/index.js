@@ -1,6 +1,5 @@
 function findTitles() {
   var searchInput = document.getElementById("searchFor").value;
-  //var wikiUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&callback=?&prop=info&inprop=url&list=search&srsearch=" + searchInput;
   var wikiUrl = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=info|pageimages|extracts&inprop=url&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=" + searchInput + "&exsentences=4&callback=?";
 
   $.getJSON(wikiUrl, function(data) {
@@ -18,7 +17,6 @@ function findTitles() {
 }
 
 $(document).ready(function() {
-  //$('#searchWiki').click(function() {
   $('form').on('submit', function(event) {
     $('#insertHere').empty();
     event.preventDefault();
