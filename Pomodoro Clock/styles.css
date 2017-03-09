@@ -1,0 +1,40 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.clockContainer, .breakClockContainer{
+  margin-left: -2000px;
+}
+
+#breakContainer, #customPomoForm, #customBreakForm, #startOver {
+  margin-left: -2000px;
+}
+
+form{
+  width: 100%;
+}
+
+.form-control{
+  height: 2em;
+  font-size: 1.5em;
+}
+
+button{
+  margin: 5px;
+}
+
+.clock{
+  display: inline-block;
+  background-color: #d3d3d3;
+  width: 50%;
+  font-size: 2.5em;
+  border-radius: 7.5px;
+}
+
+#footer {
+  margin-top: 100px;
+}
