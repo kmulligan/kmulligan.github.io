@@ -47,12 +47,7 @@ $(document).ready(function() {
   //now let's insert our lat/long variables into a weather API call with our global APPID, and insert some key/values into some containers
   $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&APPID=f046c726db2f18009cffe47f77163c73", function(weatherData) {
     $("#cityName").html("The weather in " + weatherData.name);
-    /* $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=" + zip + "&APPID=f046c726db2f18009cffe47f77163c73", function(weatherData) {
-               $("#cityName").html("The weather in " + weatherData.name);*/
-    //$("#weatherIcon").html("<img height=200px src='http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png'>");
-    //$("#weatherIcon").html("<i class='wi wi-owm-'" + weatherData.weather[0].id + "></i>");
     $("#weatherIcon").html("<i class='wi wi-fw wi-owm-" + weatherData.weather[0].id + "'></i>");
-    //$("#weatherId").html("" + weatherData.weather[0].id);
     $("#weatherDescription").html(weatherData.weather[0].description);
     var kelvin = weatherData.main.temp;
     var fahrenheit = Math.floor(((kelvin - 273.15) * 1.8) + 32);
