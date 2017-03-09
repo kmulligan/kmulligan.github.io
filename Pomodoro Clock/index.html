@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="index.js"></script>
+</head>
+  <body>
+      <p></p>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 text-center">
+          <div id="pomoContainer">
+            <h3>Pick Your Pomodoro</h3>
+            <button class="btn btn-default btn-lg" id="pomo25">25 Minute Pomodoro</button><p></p>
+            <button class="btn btn-default btn-lg" id="pomoCustom">Custom Pomodoro</button>
+            <p></p>
+            <form id="customPomoForm" class="center-block">
+              <div class="form-group center-block">
+                <input type="number" min="0" step="1" class="form-control" id="customPomoEntry" placeholder="Add custom pomo time (in minutes)">
+              </div>
+              <p></p>
+              <button type="submit" class="btn btn-primary center-block btn-lg" id="customPomoAdd">Set Pomodoro Session Timer</button>
+            </form>
+          </div>
+          <div id="breakContainer">
+            <h3>Pick Your Break</h3>
+            <button class="btn btn-default btn-lg" id="pomo5">5 Minute Break</button><p><p>
+            <button class="btn btn-default btn-lg" id="pomoBreakCustom">Custom Break</button>
+            <p></p>
+            <form id="customBreakForm">
+              <div class="form-group center-block">
+                <input type="number" min="0" step="1" class="form-control" id="customBreakEntry" placeholder="Add custom break time (in minutes)">
+              </div>
+              <p></p>
+              <button type="submit" class="btn btn-primary btn-lg center-block" id="customBreakAdd">Set Break Timer</button>
+            </form>
+            <p></p>
+          </div>
+          <div class="clockContainer center-block">
+            <h3>Get productive!</h3>
+            <div class="clock" id="newClock"></div>
+            <p></p>
+            <p><button class="btn btn-success btn-lg" id="startButton">Start</button>
+              <button class="btn btn-danger btn-lg" id="stopButton">Stop</button>
+            </p>
+          </div>
+
+        <div class="breakClockContainer center-block">
+          <h3>It's break time!</h3>
+          <div class="clock" id="breakClock"></div>
+          <p></p>
+          <p><button class="btn btn-success btn-lg" id="startButtonBreak">Start</button>
+            <button class="btn btn-danger btn-lg" id="stopButtonBreak">Stop</button>
+            <button class="btn btn-info btn-lg" id="startOver">Start Over</button>
+          </p>
+        </div>
+        </div>
+      </div>
+      <div id="footer" class="center-block text-center">Built with Javascript, jQuery, and Bootstrap</div>
+      </div>
+      <div class="col-md-4"></div>
+      </div>
+    </body>
+  </html>
