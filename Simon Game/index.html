@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="index.js"></script>
+</head>
+<body>
+  <div id="titleText"><h1>Simon</h1></div>
+  <div id="simonCircle">
+    <div id="controls">
+          <div class="buttonRow">
+        <button id="resetBoard"></button>Reset
+      </div>
+      <div class="round">
+        <div id="roundText">- -</div>
+      </div>
+      <div class="buttonRow">
+        <div class="buttonLabels">Start</div>
+        <div class="buttonLabels">Strict</div>
+      </div>
+      <div class="buttonRow">
+        <div class="buttonLabels" id="strictActive"></div>
+      </div>
+      <div class="buttonRow">
+        <button class="buttonLabels" id="start"></button>
+        <button class="buttonLabels" id="strict"></button>
+      </div>
+    </div>
+    <div class="gameButtons" id="red"></div>
+    <div class="gameButtons" id="blue"></div>
+    <div class="gameButtons" id="green"></div>
+    <div class="gameButtons" id="yellow"></div>
+  </div>
+  <div id="footer">Built with Javascript & jQuery by Kevin Mulligan</div>
+</body>
+</html>
