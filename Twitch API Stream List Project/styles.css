@@ -1,0 +1,68 @@
+body {
+  background-color: #a9a9a9;
+  color: #ffffff;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.btn {
+  margin:10px 0px 10px 0px;
+}
+
+/* Our Containers */
+
+/* for the title of our app */
+
+.title {
+  margin: 50px 20px 20px 20px;
+}
+
+/* styling our links to look the same */
+a:link,a:hover,a:active,a:visited{
+  color: #ffffff;
+}
+
+/* to hold stuff */
+
+.channelList {
+  margin: 5px 20px 5px 20px;
+}
+
+.online {
+  background-color: green;
+}
+
+.panel {
+  background-color: #595959;
+  color: #ffffff;
+  font-size: 1.4em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.panel-default>.panel-heading{
+  background-color: #6441a5;
+  color: #ffffff;
+}
+
+label {
+  color: #6441a5;
+}
+
+#submit {
+  background-color: #6441a5;
+  color: #ffffff;
+}
+
+/* to house our buttons */
+
+.buttonContainer {}
+
+/* for our footer */
+
+.footer {
+  margin:20px 20px 20px 20px;
+  color: #6441a5;
+}
