@@ -1,0 +1,179 @@
+body {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 1.6em;
+}
+
+#titleText{
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#footer{
+  margin-top: 25px;
+  text-align: center;
+}
+
+#controls {
+  width: 250px;
+  height: 250px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 125px;
+}
+
+.gameButtons {
+  width: 225px;
+  height: 225px;
+  margin: 10px;
+  float: left;
+  position: absolute;
+  z-index: 2;
+}
+
+#resetBoard{
+  border-style: solid;
+  border-width: 2px;
+  background-color: #660000;
+  color: #000000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 0px 0px #595959;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+#simonCircle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #000000;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+
+#start,
+#strict {
+  border-style: solid;
+  border-width: 2px;
+  background-color: #e5e500;
+  color: #000000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 0px 0px #595959;
+  /*margin: 15px 15px 15px 50px;
+  display: inline-block;*/
+}
+
+#start{
+  margin-left: 16px;
+}
+
+#strict{
+  background-color: red;
+  margin-left: 20px;
+}
+
+#strictActive{
+  border-style: solid;
+  border-width: 2px;
+  background-color: #660000;
+  color: #000000;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 0px 0px #595959;
+  margin-left: 77px;
+}
+
+.clicked {
+  background-color: red !important;
+}
+
+.ignore-clicks{
+  pointer-events: none;
+}
+
+.accept-clicks{
+  pointer-events: auto;
+}
+.buttonRow {
+  /*border-style: solid;*/
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 10px;
+  font-weight: bold;
+}
+
+.buttonLabels {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+#start:active,
+#strict:active, #resetBoard:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.round {
+  background-color: #000000;
+  border-radius: 10%;
+  color: red;
+  width: 75px;
+  line-height: 40px;
+  /*margin: 20px;
+  margin-left: 70px;*/
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+#whoPlaying {
+  width: 25%;
+  background-color: #d3d3d3;
+  color: #000000;
+  margin: 20px;
+}
+
+#red {
+  top: 15px;
+  left: 15px;
+  background-color: red;
+  border-radius: 520px 0px 0px 0px;
+}
+
+#blue {
+  top: 15px;
+  right: 15px;
+  background-color: blue;
+  border-radius: 0px 520px 0px 0px;
+}
+
+#green {
+  bottom: 15px;
+  left: 15px;
+  background-color: green;
+  border-radius: 0px 0px 0px 520px;
+}
+
+#yellow {
+  bottom: 15px;
+  right: 15px;
+  background-color: yellow;
+  border-radius: 0px 0px 520px 0px;
+}
