@@ -27,7 +27,7 @@ a:link,a:hover,a:active,a:visited{
 /* to insert the weather icon based on the temperature */
 
 .weatherVisual {
-  margin: 5px 20px 5px 20px;
+  margin: 5px 20px 35px 20px;
 }
 
 /* to present the numeric temperature */
