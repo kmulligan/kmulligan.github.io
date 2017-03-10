@@ -1,6 +1,6 @@
-#Kevin Mulligan's Portfolio
+# Kevin Mulligan's Portfolio
 
-##Completed Projects
+## Completed Projects
 
 For FreeCodeCamp:
   * Show the Local Weather: [GitHub](https://github.com/kmulligan/kmulligan.github.io/tree/master/Show%20the%20Local%20Weather) / [Codepen](http://codepen.io/kmulligan/full/yObaYv/)
@@ -11,7 +11,7 @@ For FreeCodeCamp:
   * Tic Tac Toe: [GitHub](https://github.com/kmulligan/kmulligan.github.io/tree/master/Tic%20Tac%20Toe) / [Codepen](http://codepen.io/kmulligan/full/rrwWZJ/)
   * Simon Game: [GitHub](https://github.com/kmulligan/kmulligan.github.io/tree/master/Simon%20Game) / [Codepen](http://codepen.io/kmulligan/full/jrykzJ/)
   
-##Coursework:
+## Coursework:
   * FreeCodeCamp:
     * [FreeCodeCamp Front End Development Certification](https://www.freecodecamp.com/kmulligan/front-end-certification) - September 29, 2016
     * Data Visualization Certification (in progress)
